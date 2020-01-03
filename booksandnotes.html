@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style-book.css">
+</head>
+
+<body>
+    <nav>
+        <link rel="stylesheet" href="css/style-nav.css">
+        <span class="ham " onclick="openNav()">
+            <svg width="35" height="35" viewBox="0 0 24 24" focusable="false" class=" NMm5M">
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
+
+                </path>
+            </svg>
+        </span>
+
+
+
+        <p class="logo center-hv">study <br> smart</p>
+
+    </nav>
+    <div class="navbar" id="nav">
+        <a href="index.html" class="nav-link">home</a>
+        <a href="booksandnotes.html" class="nav-link">books and notes</a>
+        <a href="product.html" class="nav-link">buysell</a>
+        <a href="#" class="nav-link">previous year paper</a>
+        <a href="#" class="nav-link">contact us</a>
+    </div>
+    <script>
+        function openNav() {
+
+            document.getElementById("nav").classList.toggle("openclose")
+        }
+    </script>
+
+    <div class="container">
+        <div class="flex">
+            <p class="heading">books and notes</p>
+            <a href="#" class="upload-btn btn" download>upload</a>
+        </div>
+        <div class="item flex">
+            <p class="item-name">book name</p>
+            <a href="#" class="download-btn btn" download><i class="fa fa-download" aria-hidden="true">download</i>
+            </a>
+        </div>
+        <div class="item flex">
+            <p class="item-name">book name</p>
+            <a href="#" class="download-btn btn" download><i class="fa fa-download" aria-hidden="true">download</i>
+            </a>
+        </div>
+        <div class="item flex">
+            <p class="item-name">book name</p>
+            <a href="#" class="download-btn btn" download><i class="fa fa-download" aria-hidden="true">download</i>
+            </a>
+        </div>
+        <div class="item flex">
+            <p class="item-name">book name</p>
+            <a href="#" class="download-btn btn" download><i class="fa fa-download" aria-hidden="true">download</i>
+            </a>
+        </div>
+        <div class="item flex">
+            <p class="item-name">book name</p>
+            <a href="#" class="download-btn btn"><i class="fa fa-download" aria-hidden="true">download</i></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
