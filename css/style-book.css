@@ -17,11 +17,11 @@ body {
 
 .container {
     background-color: #fff;
-    width: 100%;
+    width: 95%;
     max-width: 900px;
     margin: 0 auto;
     margin-top: 2em;
-    height: 100vh;
+
     padding: 2em;
 }
 
