@@ -4,7 +4,6 @@
     padding: 0;
     text-transform: capitalize;
     font : #000;
-    font-family: serif;
 }
 
 a {
@@ -13,8 +12,8 @@ a {
 }
 
 :root {
-    --primary-color: #4AD0C7;
-    --secondary-color: #84FFFB;
+    --primary-color: #39509e;
+    --secondary-color: #39509e;
 }
 
 body {
@@ -31,7 +30,7 @@ body {
     background-color: var(--secondary-color);
     margin: 0.3em 0;
     padding: 1em;
-    color: black;
+    color: #fff;
     line-height: 1.5;
 }
 
@@ -66,13 +65,15 @@ body {
 }
 
 .card {
-    background-color: white;
+    background-image: linear-gradient(#7f7fd5 , #86a8e7 , #91eae4);
     padding: 1em 2em;
-    box-shadow: 6px 8px 20px #39509e;
+    box-shadow: 6px 8px 25px #39509e;
 }
 .ads{
     border: none;
     box-shadow: none;
+    background-image: none;
+    background-color: white;
 }
 
 
