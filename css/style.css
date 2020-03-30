@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     text-transform: capitalize;
-
+    font : #000;
+    font-family: serif;
 }
 
 a {
@@ -76,7 +77,7 @@ body {
 
 
 .heading {
-    font-family: 'pridi', sans-serif !important;
+    font-family: 'Pridi', serif;
     border-left: 8px solid var(--secondary-color);
     font-size: 2rem;
     line-height: 0.9;
