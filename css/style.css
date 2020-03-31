@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     text-transform: capitalize;
-    font : #000;
+    font : #fff;
 }
 
 a {
@@ -65,9 +65,10 @@ body {
 }
 
 .card {
-    background-image: linear-gradient(#7f7fd5 , #86a8e7 , #91eae4);
+    background-image: linear-gradient(to right, #0f0c29,#302b63,#24243e);
     padding: 1em 2em;
     box-shadow: 6px 8px 25px #39509e;
+    color: #fff;
 }
 .ads{
     border: none;
