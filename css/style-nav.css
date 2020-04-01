@@ -17,7 +17,7 @@
 
 nav {
     width: 100%;
-    background-color: #1A252B;
+    background-color: #202424;
     position: fixed;
     height: 10vh;
     top: 0;
@@ -61,7 +61,7 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: start;
-    background-color: #1A252B;
+    background-color: #202424;
     text-transform: uppercase;
     transition: all 500ms;
     transform: translateX(-100%);
@@ -101,6 +101,5 @@ nav {
 }
 
 .nav-link:hover {
-    background-color: #3A4549;
-    cursor: hand;
+    background-color: #009E96;
 }

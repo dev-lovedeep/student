@@ -44,6 +44,9 @@ body {
 }
 
 .subject {
+    background-image: url("https://mdbootstrap.com/img/Photos/Others/gradient1.jpg");
+    /* background-color: white;
+    background-blend-mode: overlay; */
     text-decoration: none;
     color: black;
     padding: 3em;
