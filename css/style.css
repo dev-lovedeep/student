@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     text-transform: capitalize;
+    scroll-behavior: smooth;
     font: #000;
     font-family: serif;
 }
