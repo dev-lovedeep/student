@@ -8,23 +8,7 @@ body {
   background-color: #4AD0C7;
 }
 
-body nav {
-  background-color: #009E96;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-body nav p {
-  margin: 0;
-  font-size: 1.4rem;
-  color: white;
-  font-weight: 900;
-  line-height: 1.2;
-  letter-spacing: 2px;
-  text-transform: capitalize;
-  padding: 9px;
-}
 
 .container-profiles {
   background-color: white;
