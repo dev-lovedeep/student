@@ -193,6 +193,9 @@ body {
     color: #ffe04f;
     margin-bottom: 0.5em;
 }
+.notice-content{
+    font-weight: 700;
+}
 .product {
     background-color: #fff;
     width: 200px;
