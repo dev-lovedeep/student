@@ -74,6 +74,7 @@ body {
 }
 
 .download-btn {
+	align-self: center;
 	display: inline-block;
 	position: relative;
 	padding: 10px 25px;
