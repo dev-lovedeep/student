@@ -194,7 +194,8 @@ body {
     margin-bottom: 0.5em;
 }
 .notice-content{
-    font-weight: 700;
+    font-weight: normal;
+    font-size: 1.2rem;
 }
 .product {
     background-color: #fff;
