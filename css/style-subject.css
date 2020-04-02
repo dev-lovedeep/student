@@ -63,6 +63,7 @@ body {
     transition: background-image 2s;
 } */
 .subject {
+    text-decoration:none;
     border: none;
     display: block;
     text-align: center;
