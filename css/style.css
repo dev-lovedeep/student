@@ -165,7 +165,7 @@ body {
     border-bottom: 2px solid #ffe04f;
     padding-bottom: 1em;
     font-family: 'Pridi', serif;
-    /* border-left: 8px solid var(--secondary-color); */
+    /* border-left: 6px solid var(--secondary-color); */
     font-size: 2rem;
     line-height: 0.9;
     padding-left: 0.5em;
@@ -193,28 +193,17 @@ body {
     color: #ffe04f;
     margin-bottom: 0.5em;
 }
-
-.notice-content {
-    /* color: white; */
-}
-
-
-
-
 .product {
     background-color: #fff;
     width: 200px;
     height: 200px;
     display: inline-block;
-
 }
-
 .card-content {
     position: relative;
     max-height: 300px;
     overflow: auto;
 }
-
 .view-more {
     display: inline-grid;
     position: absolute;
@@ -295,4 +284,7 @@ button[type="submit"] {
     #userinput {
         width: 40%;
     }
+}
+.card-content span{
+    font-size: 1.3em;
 }
